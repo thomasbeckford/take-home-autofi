@@ -1,0 +1,92 @@
+.home__page-container {
+  margin: 10px;
+  background: #f9f9f9;
+}
+
+.home__input-error {
+  color: red;
+  font-size: 13px;
+  margin: 0;
+}
+
+.home__form-control {
+  box-shadow: 3px 3px 2px #e5e5e5;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.home__post-body {
+  margin-bottom: 12px;
+  padding: 40px 10px 20px 10px;
+  border-radius: 10px;
+}
+
+.home__text-area {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.home__input {
+  border-radius: 10px;
+  margin: 0;
+}
+
+.home__text-area::active {
+  border: none;
+}
+
+textarea:focus {
+  outline: none;
+  padding: 5px;
+}
+
+button.home__comments-toggle-button {
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding-left: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+.home__comments-toggle-button span {
+  text-decoration: underline;
+  display: block;
+}
+
+button.home__comment-button {
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.home__comment-container {
+  border: 1px solid #e2e2e2;
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 2px #e5e5e5;
+}
+
+.home__comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home__comment-email {
+  color: cornflowerblue;
+  text-decoration: underline;
+  text-transform: lowercase;
+  text-align: right;
+}
+
+.home__comment-body {
+  color: #202020;
+}
+
+.home__comment-name {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
