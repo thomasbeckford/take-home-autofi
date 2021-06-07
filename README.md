@@ -32,7 +32,7 @@ yarn start
 
 ##### - Project setup with redux
 
-##### - Tested components
+##### - Tests ( Setup jest and enzyme, test some components)
 
 ##### - Allow user to comment a post and store it in redux state
 
