@@ -1,4 +1,4 @@
-import { LOAD_POSTS, LOAD_COMMENTS, CREATE_COMMENT } from "./actions";
+import { LOAD_POSTS, LOAD_COMMENTS, CREATE_COMMENT } from "../actions";
 
 export interface initialStateType {
   posts: [];

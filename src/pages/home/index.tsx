@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { PostType, CommentType } from "./../../interfaces";
+import { PostType, CommentType } from "../../interfaces";
 import { Button, Collapse, Form, Input } from "antd";
 import { useDispatch, useSelector } from "react-redux";
-import { createComment } from "./../../actions";
-import { getPosts, getComments } from "./../../thunks";
+import { createComment } from "../../actions";
+import { getPosts, getComments } from "../../thunks";
 
 import "./home.css";
 

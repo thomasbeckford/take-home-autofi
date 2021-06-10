@@ -1,4 +1,4 @@
-import { loadPosts, loadComments } from "./actions";
+import { loadPosts, loadComments } from "../actions";
 
 const backendUrl = "https://jsonplaceholder.typicode.com";
 

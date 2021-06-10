@@ -1,4 +1,4 @@
-import { PostType, CommentType } from "./interfaces";
+import { PostType, CommentType } from "../interfaces";
 
 export const LOAD_POSTS = "LOAD_POSTS";
 export const loadPosts = (posts: [PostType]) => ({
